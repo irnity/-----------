@@ -1,0 +1,155 @@
+table {
+  border-collapse: collapse;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: #f5f5f5;
+  width: 1000px;
+  height: 620px;
+}
+
+td {
+  border: none 1px #999;
+  padding: 0.5em;
+}
+
+/* tr:nth-child(4) td:nth-child(4) {
+    border-right: solid 10px blue;
+} */
+
+tr:nth-child(3) td {
+  padding: 0em;
+}
+
+tr:nth-child(4) td {
+  padding: 0em;
+}
+
+tr:nth-child(5) td {
+  padding: 0em;
+}
+
+tr:nth-child(6) td {
+  padding: 0em;
+}
+
+tr td:first-child {
+  padding: 0em;
+}
+
+.tl2 {
+  border-top: solid 4px #000;
+}
+
+.ll2 {
+  border-left: solid 4px #000;
+}
+
+.rl2 {
+  border-right: solid 4px #000;
+}
+
+.bl2 {
+  border-bottom: solid 4px #000;
+}
+
+.tl1 {
+  border-top: solid 1px #000;
+}
+
+.ll1 {
+  border-left: solid 1px #000;
+}
+
+.rl1 {
+  border-right: solid 1px #000;
+}
+
+.bl1 {
+  border-bottom: solid 1px #000;
+}
+
+.rl3 {
+  border-right: dashed 1px #000;
+}
+
+.vertical_text {
+  transform: rotate(-90deg);
+}
+
+.font1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.font2 {
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.width1 {
+  width: 2.6%;
+}
+
+.width2 {
+  width: 29.4%;
+}
+
+.width3 {
+  width: 22%;
+}
+
+.width4 {
+  width: 9.3%;
+}
+
+.width5 {
+  width: 11%;
+}
+
+.width6 {
+  width: 4%;
+}
+
+.width7 {
+  width: 6.3%;
+}
+
+.hei1 {
+  height: 4%;
+}
+
+.hei2 {
+  height: 3%;
+}
+
+.hei3 {
+  height: 12%;
+}
+
+.hei4 {
+  height: 1%;
+}
+
+.hei5 {
+  height: 7.5%;
+}
+
+.hei6 {
+  height: 10%;
+}
+
+.hei7 {
+  height: 5.5%;
+}
+
+.hei8 {
+  height: 15%;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
